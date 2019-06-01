@@ -1,0 +1,15 @@
+<!--
+theme name:		Angular
+version:		1.0
+author:			Lilbud
+email:			bvw20002010@gmail.com
+license:		creative commons CC-BY-NC-SA
+-->
+
+<theme>
+	<formatVersion>4</formatVersion>
+	
+	<variables>
+		<systemColor>12B2E7</systemColor>
+	</variables>
+</theme>
