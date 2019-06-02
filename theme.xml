@@ -10,29 +10,25 @@ license:		creative commons CC-BY-NC-SA
 	<formatVersion>4</formatVersion>
 	
 	<!--colors or dark-->
-	<include>./assets/colors/dark.xml</include>
+	<include>./assets/colors/colors.xml</include>
+	
+	<!--Choose Aspect Ratio (16_9 or 4_3)-->
+	<include>./assets/aspectratios/16_9.xml</include>
 	
 	<view name="system">
 	
 		<image name="logo">
 			<path>./assets/logos/systemselect/${system.theme}.svg</path>
-			<maxSize>0.21815519765 0.6614583</maxSize>
-			<origin>0 0</origin>
-			<pos>0.6610541727672036 0.169270831</pos>
-			<color>ffffffff</color>
+			<color>ffffff</color>
 		</image>
 		
 		<image name="background" extra="true">
 			<path>./assets/backgrounds/${system.theme}.png</path>
-			<pos>0 0</pos>
-			<size>0.6 1</size>
 		</image>
 		
 		<text name="helpsystem" extra="true">
 			<text>Start - Menu  |  X - Random  |  A - Select</text>
-			<pos>0.7745241581259151 0.95</pos>
 			<fontPath>./assets/Product Sans Regular.ttf</fontPath>
-			<fontSize>0.03</fontSize>
 			<origin>0.5 0.5</origin>
 			<zIndex>71</zIndex>
 			<color>ffffff</color>
@@ -43,11 +39,8 @@ license:		creative commons CC-BY-NC-SA
 	<view name="system, basic, detailed, video">
 		
 		<image name="sidebar" extra="true">
-			<path>./assets/carousel1.svg</path>
-			<pos>1.00292825768 0</pos>
-			<origin>1 0</origin>
+			<path>./assets/carousel1.svg</path>		
 			<color>${systemColor}</color>
-			<size>0.5 1</size>
 			<zIndex>70</zIndex>
 		</image>
 	
@@ -57,9 +50,6 @@ license:		creative commons CC-BY-NC-SA
 		
 		<image name="none" extra="true">
 			<path>./assets/default.png</path>
-			<pos>0 0</pos>
-			<origin>0 0</origin>
-			<size>0.55 1</size>
 			<zIndex>69</zIndex>
 		</image>
 		
@@ -67,77 +57,39 @@ license:		creative commons CC-BY-NC-SA
 	
 	<view name="detailed, video">
 		
-		<image name="md_image" extra="true">
-			<pos>0 0</pos>
-			<size>0.6 1</size>
+		<image name="md_image">
 			<origin>0 0</origin>
 			<zIndex>67</zIndex>
 		</image>
 		
 		<image name="md_marquee" extra="true">
 			<origin>0.5 0.5</origin>
-			<pos>0.34 0.8828125</pos>
-			<maxSize>0.268  0.15625</maxSize>
 			<zIndex>71</zIndex>
 		</image>
 		
 		<text name="md_description">
 			<forceUppercase>0</forceUppercase>
-			<fontSize>0.025</fontSize>
-			<size>0.365 0.148</size>
-			<pos>0.5951683748169839 0.77</pos>
 			<zIndex>71</zIndex>
 			<fontPath>./assets/Product Sans Regular.ttf</fontPath>
-			<fontSize>0.026</fontSize>
 			<color>ffffff</color>
 		</text>
 		
 		<text name="md_lbl_developer, md_developer, md_lbl_players, md_players, md_lbl_releasedate, md_lbl_rating">
 			<fontPath>./assets/Product Sans Regular.ttf</fontPath>
-			<fontSize>0.027</fontSize>
 			<color>ffffff</color>
 			<zIndex>71</zIndex>
 			<origin>0 0</origin>
 		</text> 
-<!-------------DEVELOPER----------------->			
-		<text name="md_lbl_developer">
-			<pos>0.027818448023426062 0.80</pos>
-		</text>
-		
-		<text name="md_developer">
-			<pos>0.1 0.793</pos>
-		</text>
 <!-------------RELEASE------------------->			
 		<datetime name="md_releasedate">
-			<pos>0.095 0.873</pos>
 			<format>%Y</format>
 			<zIndex>71</zIndex>
 			<fontPath>./assets/Product Sans Regular.ttf</fontPath>
-			<fontSize>0.027</fontSize>
 			<color>ffffff</color>
 			<origin>0 0</origin>
-		</datetime>
-		
-		<text name="md_lbl_releasedate">
-			<pos>0.027818448023426062 0.88</pos>
-		</text>
-<!-------------PLAYERS------------------->			
-		<text name="md_lbl_players">
-			<pos>0.027818448023426062 0.84</pos>
-		</text>
-		
-		<text name="md_players">
-			<pos>0.08 0.8333</pos>
-		</text>
-<!-------------RATINGS------------------->				
-		<text name="md_lbl_rating">
-			<pos>0.027 0.92</pos>
-			<origin>0 0</origin>
-		</text>
-		
+		</datetime>	
+<!-------------RATINGS------------------->					
 		<rating name="md_rating">
-			<pos>0.077 0.931</pos>
-			<size>0.08 0.02</size>
 			<color>ffffffff</color>
 			<origin>0 0</origin>
 			<filledPath>./assets/rating_filled.svg</filledPath>
@@ -158,6 +110,12 @@ license:		creative commons CC-BY-NC-SA
 			<zIndex>69</zIndex>
 		</image>
 		
+		<image name="bg2" extra="true">
+			<path>./assets/box.png</path>
+			<color>000000</color>
+			<zIndex>66</zIndex>
+		</image>
+		
 		<image name="dividerline" extra="true">
 			<path>./assets/box.png</path>
 			<color>ffffff</color>
@@ -171,19 +129,15 @@ license:		creative commons CC-BY-NC-SA
 			<pos>1 1</pos>
 		</text>
 		
-		<image name="logo">
-			<pos>0.7745241581259151 0.092447916</pos>
-			<path>./assets/logos/gamelist/${system.theme}.svg</path>
-			<maxSize>0.365 0.13671875</maxSize>
+		<image name="logo">		
+			<path>./assets/logos/gamelist/${system.theme}.svg</path>		
 			<zIndex>71</zIndex>
 			<origin>0.5 0.5</origin>
 		</image>
 		
 		<text name="helpsystem" extra="true">
 			<text>A - Launch  |  B - Back  |  X - Random  |  Y - Favorite</text>
-			<pos>0.7745241581259151 0.70</pos>
 			<fontPath>./assets/Product Sans Regular.ttf</fontPath>
-			<fontSize>0.03</fontSize>
 			<origin>0.5 0.5</origin>
 			<zIndex>71</zIndex>
 			<color>ffffff</color>
@@ -212,8 +166,6 @@ license:		creative commons CC-BY-NC-SA
 	<view name="video">
 		
 		<video name="md_video">
-			<pos>0 0</pos>
-			<size>0.6 1</size>
 			<origin>0 0</origin>
 			<delay>1</delay>
 			<showSnapshotNoVideo>true</showSnapshotNoVideo>
