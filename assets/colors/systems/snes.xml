@@ -11,4 +11,10 @@ license:		creative commons CC-BY-NC-SA
 	
 	<include>./../companies/nintendo.xml</include>
 	
+	<!-- Purple Color, just remove the comment symbols, (the, "<!--", & "-->") <!--And add them infront of the include line above-->
+	
+	<!--<variables>
+		<systemColor>4f43ae</systemColor>
+	</variables>-->
+	
 </theme>
