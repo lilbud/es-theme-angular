@@ -170,7 +170,7 @@ license:		creative commons CC-BY-NC-SA
 			<delay>1</delay>
 			<showSnapshotNoVideo>true</showSnapshotNoVideo>
 			<showSnapshotDelay>true</showSnapshotDelay>
-			<zIndex>70</zIndex>
+			<zIndex>69</zIndex>
 		</video>
 	
 	</view>
