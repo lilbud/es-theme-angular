@@ -17,11 +17,6 @@ license:		creative commons CC-BY-NC-SA
 			<pos>0.6610541727672036 0.169270831</pos>
 		</image>
 		
-		<image name="background" extra="true">
-			<pos>0 0</pos>
-			<size>0.6 1</size>
-		</image>
-		
 		<text name="helpsystem" extra="true">		
 			<pos>0.7745241581259151 0.95</pos>
 			<fontSize>0.03</fontSize>
@@ -51,11 +46,6 @@ license:		creative commons CC-BY-NC-SA
 	</view>
 	
 	<view name="detailed, video">
-		
-		<image name="md_image">
-			<pos>0 0</pos>
-			<maxSize>1 1</maxSize>
-		</image>
 		
 		<image name="md_marquee" extra="true">
 			<pos>0.34 0.8828125</pos>
@@ -122,15 +112,6 @@ license:		creative commons CC-BY-NC-SA
 			<fontSize>0.03</fontSize>			
 		</text>
 		
-	</view>
-	
-	<view name="video">
-		
-		<video name="md_video">
-			<pos>0 0</pos>
-			<maxSize>1 1</maxSize>
-		</video>
-	
 	</view>
 
 </theme>
