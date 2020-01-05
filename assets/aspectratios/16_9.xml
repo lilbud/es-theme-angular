@@ -54,7 +54,7 @@ license:		creative commons CC-BY-NC-SA
 		
 		<image name="md_image">
 			<pos>0 0</pos>
-			<size>0.6 1</size>
+			<maxSize>1 1</maxSize>
 		</image>
 		
 		<image name="md_marquee" extra="true">
@@ -128,7 +128,7 @@ license:		creative commons CC-BY-NC-SA
 		
 		<video name="md_video">
 			<pos>0 0</pos>
-			<size>0.6 1</size>
+			<maxSize>1 1</maxSize>
 		</video>
 	
 	</view>
