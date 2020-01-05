@@ -13,7 +13,7 @@ license:		creative commons CC-BY-NC-SA
 	<include>./assets/colors/colors.xml</include>
 	
 	<!--Choose Aspect Ratio (16_9 or 4_3)-->
-	<include>./assets/aspectratios/16_9.xml</include>
+	<include>./assets/aspectratios/4_3.xml</include>
 	
 	<view name="system">
 	
@@ -24,6 +24,8 @@ license:		creative commons CC-BY-NC-SA
 		
 		<image name="background" extra="true">
 			<path>./assets/backgrounds/${system.theme}.png</path>
+			<pos>0 0</pos>
+			<maxSize>1 1</maxSize>
 		</image>
 		
 		<text name="helpsystem" extra="true">
@@ -60,6 +62,8 @@ license:		creative commons CC-BY-NC-SA
 		<image name="md_image">
 			<origin>0 0</origin>
 			<zIndex>67</zIndex>
+			<pos>0 0</pos>
+			<maxSize>1 1</maxSize>
 		</image>
 		
 		<image name="md_marquee" extra="true">
@@ -171,6 +175,8 @@ license:		creative commons CC-BY-NC-SA
 			<showSnapshotNoVideo>true</showSnapshotNoVideo>
 			<showSnapshotDelay>true</showSnapshotDelay>
 			<zIndex>69</zIndex>
+			<pos>0 0</pos>
+			<maxSize>1 1</maxSize>
 		</video>
 	
 	</view>
